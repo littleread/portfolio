@@ -1,0 +1,69 @@
+* {
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+body {
+  // margin: 0px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+// NAVBAR
+.nav li {
+  padding-right: 2em;
+}
+
+.navbar {
+  padding: 2em 0 2em 0;
+  background-color: #2C3E50;
+  border-color: transparent;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent !important;
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+header {
+  padding: 100px 0;
+  background: firebrick;
+}
+
+#portfolio {
+  background: white;
+}
+
+#skills {
+  
+}
+
+.content-img {
+  padding: 1em 1em;
+  width: 100%;
+}
+
+#about {
+  background: firebrick;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
