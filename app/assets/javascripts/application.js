@@ -15,10 +15,16 @@
 //= require turbolinks
 //= require_tree .
 
-$(function () {
+$(document).on('turbolinks:load', function() {
   console.log('ready!');
 
-  
+  // $(window).scroll(function() {
+  //     if ($("#mainNav").offset().top > 100) {
+  //         $("#mainNav").addClass("navbar-shrink");
+  //     } else {
+  //         $("#mainNav").removeClass("navbar-shrink");
+  //     }
+  // });
   
   
 }); // document ready ends here
